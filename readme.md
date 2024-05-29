@@ -39,10 +39,8 @@ Pull up the key and add it to the GitHub account
 git remote set-url origin https://github.com/<user_name>/<repo_name>.git
 ```
 
-First, in the action section for my repository, we run the Python package to create the first yaml file, and then Python publishes it to PyPI.
+First, in the action section for my repository, we run the Python package to create the first yaml file, and then Python-publishes to create a second yaml file.
 In the secret code section, we put the value of API-TOKEN-PYPI.
-Assignment_Tenth  --
-                -- pythonpackage_morteza
 
 ##In the lower part, you can see two images of the Python package before and after it was published in PYPI:
 
