@@ -1,5 +1,5 @@
 <!-- برای فعال کردن گیت هاب در محیط vscode این مراحل را انجام دهید: -->
-- [ ] In this work we run a machine learning task to predict weight based on the height of a person from scratch
+- [ ] In this work we run a machine learning task to predict weight based on the height of a person from scratch.
 
 ##for active push code in vs cod via terminal vscode follow these steps:
 
@@ -7,7 +7,7 @@
 ```
 a. ls -al ~/.ssh
 ```
-3. Create a key if it does not exist-
+2. Create a key if it does not exist.
 Paste the text below and substitute it with your GitHub email address.
 ```
 a. ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -17,18 +17,18 @@ b. When you're prompted to "Enter a file in which to save the key," press Enter.
 c. At the prompt, type a secure passphrase.
 ```
 
-5. Adding your SSH key to the ssh-agent-
-Fire up the SSH agent and add the key
+3. Adding your SSH key to the ssh-agent.
+Fire up the SSH agent and add the key.
 ```
-1. eval `ssh-agent -s`
-2. ssh-add ~/.ssh/id_ed25519
+a. eval `ssh-agent -s`
+b. ssh-add ~/.ssh/id_ed25519
 
-4. Adding key to GitHub account-
+4. Adding key to GitHub account.
 ```
-Pull up the key and add it to the GitHub account
+Pull up the key and add it to the GitHub account.
 ```
-1. cat ~/.ssh/id_ed25519.pub
-2. Navigate to the GitHub account and add key
+a. cat ~/.ssh/id_ed25519.pub
+b. Navigate to the GitHub account and add key.
 ```
 - [X] Hooray! now you should be able to push files to your GitHub account.
 
