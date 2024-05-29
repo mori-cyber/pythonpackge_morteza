@@ -41,6 +41,9 @@ git remote set-url origin https://github.com/<user_name>/<repo_name>.git
 To publish a repository in PYPI, we must do the following steps: in the code folder of the requirements and readme file, setup.py and MANIFEST.in, then create a subfolder in this subfolder, two files named __init__.py and a file Python that contains the name of the package and has the same name as the last folder. In the test folder, which is under the folder of the second folder, there is a __init__.py file and a python file that must start with the name test.
 First, in the action section, we run the Python package to create the first yaml file, and then Python publishes it to PyPI.
 In the secret code section, we put the value of API-TOKEN-PYPI.
+Assignment_Tenth  --
+                -- pythonpackage_morteza
+
 ##In the lower part, you can see two images of the Python package before and after it was published in PYPI:
 
 ![1](https://github.com/mori-cyber/pythonpackge_morteza/assets/65276280/b0430046-78fb-4439-b9c2-1fab05e1338d)
