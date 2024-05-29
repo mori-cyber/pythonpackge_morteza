@@ -16,7 +16,6 @@ b. When you're prompted to "Enter a file in which to save the key," press Enter.
 ```
 c. At the prompt, type a secure passphrase.
 ```
-
 3. Adding your SSH key to the ssh-agent.
 Fire up the SSH agent and add the key.
 ```
